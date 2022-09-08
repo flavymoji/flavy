@@ -7,7 +7,11 @@ const config: ThemeConfig = {
   useSystemColorMode: false,
 };
 
-const fonts: ChakraTheme["fonts"] = {};
+const fonts: ChakraTheme["fonts"] = {
+  body: 'Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif',
+  heading:
+    'Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif',
+};
 
 const styles: ChakraTheme["styles"] = {
   global: {},
